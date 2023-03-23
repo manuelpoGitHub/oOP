@@ -16,7 +16,7 @@ Person.prototype.calcAge = function() {
 };
 jonas.calcAge();
 matilda.calcAge();
-
+// commented new file
 console.log(jonas.__proto_);
 console.log(jonas.__proto__ === Person.prototype);
 console.log(Person.prototype.isPrototypeOf(jonas)); // to test if it is prototype (true or false)
