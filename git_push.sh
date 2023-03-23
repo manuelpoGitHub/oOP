@@ -1,4 +1,6 @@
 #!/bin/bash
+# use this scrip on the root folder of the project
+# run the command below
 # sh git_push.sh
 read -p "Enter commit message: " commit_msg
 git add .
